@@ -1,0 +1,36 @@
+.cards {
+	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+    gap: 7px 1.4em;
+    padding: auto;
+    text-align: center;
+   	flex-basis: 250px;
+	flex-grow: 1;
+}
+
+.card {
+	padding: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid black;
+	margin: 20px 0px;
+	text-align: center;
+	flex-basis: 250px;
+	flex-grow: 1;
+}
+
+.card img {
+	width: 150px;
+	filter: grayscale(100%);
+	flex-grow: 1;
+}
+
+.card h3 {
+	flex-grow: 1;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 18px;
+	flex-grow: 1;
+}

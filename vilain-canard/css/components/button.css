@@ -1,0 +1,19 @@
+.btn-blue {
+	background-color: yellow;
+	color: black;
+	padding: 6px 20px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: yellow;
+}
+
+.btn-red {
+	color: black;
+	flex-grow: 1
+}
+
+.btn-red:hover {
+	text-decoration: underline;
+}
